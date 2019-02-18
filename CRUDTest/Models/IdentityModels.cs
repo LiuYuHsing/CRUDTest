@@ -29,5 +29,7 @@ namespace CRUDTest.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<CRUDTest.Models.StudentModel> StudentModels { get; set; }
     }
 }
